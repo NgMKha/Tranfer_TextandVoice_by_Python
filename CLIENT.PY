@@ -4,9 +4,10 @@ import sounddevice as sd
 import numpy as np
 import pickle
 
-HOST = '192.168.43.99'
-AUDIO_PORT = 5000
-TEXT_PORT = 5001
+HOST = '192.168.x.x' // X -> you can change to number in IP same as IP in SERVER.PY 
+AUDIO_PORT = 5000  // Port you can change same as AUDIO_PORT in SERVER.PY 
+TEXT_PORT = 5001   // Port you can change same as TEXT_PORT in SERVER.PY and different AUDIO_PORT
+
 BUFFER_SIZE = 1024
 
 def handle_audio():
